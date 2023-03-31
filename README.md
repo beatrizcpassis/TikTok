@@ -1,15 +1,17 @@
-# Getting Started with Create React App
+# Projeto: Cópia do TikTok
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse projeto foi desenvolvido em CSS, JavaScript e HTML, utilizando também o React.
 
-## Available Scripts
+## Para iniciar o projeto no browser:
 
-In the project directory, you can run:
+No diretório do projeto, você roda:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Executa o aplicativo no modo de desenvolvimento.\
+Abra [http://localhost:3000](http://localhost:3000)
+
+####Uma view do projeto
 
 
 
