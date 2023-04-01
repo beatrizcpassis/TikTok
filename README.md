@@ -1,4 +1,4 @@
-# Projeto: Cópia do TikTok
+# Projeto: Clone do TikTok
 
 Esse projeto foi desenvolvido em CSS, JavaScript e HTML, utilizando também o React.
 
@@ -11,7 +11,7 @@ No diretório do projeto, você roda:
 Executa o aplicativo no modo de desenvolvimento.\
 Abra [http://localhost:3000](http://localhost:3000)
 
-####Uma view do projeto
+##Uma view do projeto
 
 
 
