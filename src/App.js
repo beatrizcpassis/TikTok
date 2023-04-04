@@ -5,6 +5,12 @@ import db from "./config/firebase";
 import { collection, getDocs } from "firebase/firestore/lite";
 
 function App() {
+
+  let maxHeight;
+  if(window.innerHeight <= 800){
+    maxHeight = window.innerHeight;
+  }
+
   const [video, setVideos] = useState([]);
 
   async function getVideos() {
@@ -19,7 +25,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App" style={{maxHeight: maxHeight + "px"}}>
       <div className="app__videos">
         {video.map((item) => {
           return (
@@ -32,19 +38,10 @@ function App() {
               music={item.music}
               url={item.url}
             />
+
           );
         })}
 
-        {/* <Video
-        likes={0}
-        messages={0}
-        shares={0}
-        name="beatrizcp"
-        description="Meditação é importante"
-        music="toque motivador"
-        url="https://firebasestorage.googleapis.com/v0/b/jornadadevtr.appspot.com/o/WhatsApp%20Video%202023-03-29%20at%2020.04.52.mp4?alt=media&token=db4be029-27cc-4af9-b75d-3ce5fd1b1fe2"
-        
-        /> */}
       </div>
     </div>
   );
